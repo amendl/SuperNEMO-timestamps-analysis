@@ -9,3 +9,5 @@ If you have any questions feel free to contact me [adam.mendl@cvut.cz](mailto:ad
  - **with_propagation_time_correction.root** - z distribution of hits (absolute value of distance from the middle of the detector) abs(r5-r6)/(r5+r6-2r0)
 ## Code
 All code relies on RED format. It is build by placing it in folder with RED CMakeLists.txt file a callign ``cmake CMakeLists.txt`` and ``make``.
+ - **analysis.cxxá** - produces ``output.root``
+ - **correlations.cxx** - produces ``correlation_plots.root``
