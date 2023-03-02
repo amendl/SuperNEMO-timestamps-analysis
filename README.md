@@ -7,4 +7,5 @@ If you have any questions feel free to contact me [adam.mendl@cvut.cz](mailto:ad
  - **output.root** - Please not that event is used only when all timestamps are valid!
  - **without_propagation_time_correction.root** - z distribution of hits (absolute value of distance from the middle) without correction for variable propagation time
  - **with_propagation_time_correction.root** - z distribution of hits (absolute value of distance from the middle of the detector) abs(r5-r6)/(r5+r6-2r0)
-## code
+## Code
+All code relies on RED format. It is build by placing it in folder with RED CMakeLists.txt file a callign ``cmake CMakeLists.txt`` and ``make``.
